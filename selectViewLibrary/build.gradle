@@ -1,5 +1,4 @@
 apply plugin: 'com.android.library'
-apply plugin: 'me.tatarka.retrolambda'
 
 android {
     compileSdkVersion 26
@@ -25,18 +24,7 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
 }
-buildscript {
-    repositories {
-        mavenCentral()
-    }
 
-    dependencies {
-        classpath 'me.tatarka:gradle-retrolambda:3.2.4'
-    }
-}
-repositories {
-    mavenCentral()
-}
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
