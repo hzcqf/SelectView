@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/btn"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+
+            android:layout_margin="20dp"
+            android:background="@color/blue"
+            android:gravity="center"
+            android:text="Hello World!"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/btn2"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="20dp"
+            android:background="@color/blue"
+            android:gravity="center"
+            android:text="++++"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/btn3"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_margin="20dp"
+            android:background="@color/blue"
+            android:gravity="center"
+            android:text="----"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="20dp"
+            android:background="@color/blue"
+            android:gravity="center"
+            android:text="证明遮罩"
+            android:textColor="@color/white" />
+
+
+    </RelativeLayout>
+</layout>
